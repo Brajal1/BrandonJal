@@ -4,76 +4,87 @@
   <title>Welcome to My GitHub Page</title>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #ffffff;
-      color: #4B0000; /* dark burgundy text */
+      background-color: #800020; /* Burgundy */
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 22px;
       margin: 0;
       padding: 0;
     }
-    nav {
-      background-color: #800000; /* rich burgundy */
-      padding: 20px 0;
+    header {
+      background-color: gold;
+      padding: 20px;
       text-align: center;
+    }
+    header h1 {
+      color: #800020;
+      font-size: 40px;
+      margin: 0;
+    }
+    nav {
+      background-color: #800020;
+      text-align: center;
+      padding: 15px 0;
     }
     nav a {
-      color: #FFD700; /* gold */
+      color: gold;
       text-decoration: none;
-      font-size: 24px;
       margin: 0 25px;
       font-weight: bold;
+      font-size: 22px;
     }
     nav a:hover {
-      color: white;
+      text-decoration: underline;
     }
-    h1 {
+    main {
+      padding: 40px;
       text-align: center;
-      font-size: 42px;
-      margin-top: 40px;
     }
     table {
-      width: 80%;
-      margin: 40px auto;
-      border-collapse: collapse;
+      margin: 0 auto;
       font-size: 20px;
-      box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      border: 2px solid gold;
+      border-collapse: collapse;
+      width: 60%;
     }
     th, td {
-      border: 2px solid #800000;
-      padding: 20px;
-      text-align: left;
+      border: 1px solid gold;
+      padding: 15px;
     }
     th {
-      background-color: #FFD700;
-      color: #4B0000;
-    }
-    td {
-      background-color: #fff8dc;
+      background-color: gold;
+      color: #800020;
     }
   </style>
 </head>
 <body>
 
+  <header>
+    <h1>Welcome to My GitHub Page</h1>
+  </header>
+
   <nav>
     <a href="index.html">Home</a>
     <a href="ethics.html">Ethics</a>
+    <a href="citations.html">Citations</a>
   </nav>
 
-  <h1>Welcome to My GitHub Page</h1>
-
-  <table>
-    <tr>
-      <th>Category</th>
-      <th>Description</th>
-    </tr>
-    <tr>
-      <td><strong>Introduction</strong></td>
-      <td>Hello, I am in my 3rd year of achieving my degree in Cyber Security. This is my second semester here at George Mason. I'm excited to keep learning how to code websites.</td>
-    </tr>
-    <tr>
-      <td><strong>Hobbies</strong></td>
-      <td>I enjoy working with tech, gaming, and exploring cybersecurity tools. I also like learning about digital forensics.</td>
-    </tr>
-  </table>
+  <main>
+    <table>
+      <tr>
+        <th>Category</th>
+      </tr>
+      <tr>
+        <td><strong>Introduction</strong></td>
+      </tr>
+      <tr>
+        <td>Hello, I am in my 3rd year of achieving my degree in Cyber Security. This is my second semester here at George Mason. I'm excited to keep learning how to code websites.</td>
+      </tr>
+      <tr>
+        <td><strong>Hobbies</strong></td>
+      </tr>
+    </table>
+  </main>
 
 </body>
 </html>
